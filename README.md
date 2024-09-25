@@ -57,5 +57,5 @@ We used several datasets, including the **Fashion Landmark Detection in the Wild
 
 ## 7. Pretrained Models
 
-- **Pretrained Models**: All pretrained models used in this project are available for download from the following Google Drive link: [Download Pretrained Models]([https://drive.google.com/drive/folders/your-folder-id](https://drive.google.com/drive/folders/1Ku9bNEhJeYNyXNBoHCk89ygAAfkMCeXn?usp=drive_link)). 
+- **Pretrained Models**: All pretrained models used in this project are available for download from the following Google Drive link: [Download Pretrained Models]([https://drive.google.com/drive/folders/your-folder-id](https://drive.google.com/drive/folders/1Ku9bNEhJeYNyXNBoHCk89ygAAfkMCeXn?usp=drive_link). 
 
