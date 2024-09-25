@@ -37,7 +37,7 @@ We used several datasets, including the **Fashion Landmark Detection in the Wild
 ## 3. Keypoint Detection Model
 
 - **Custom CNN Model**: Built a Sequential model for keypoint detection, identifying crucial landmarks on clothing items.
-- **Keypoint Coordinates**: Outputs pixel coordinates for predefined keypoints (e.g., collar width, shoulder width).
+- **Keypoint Coordinates**: Outputs pixel coordinates for predefined keypoints.
 
 ## 4. Scale Calibration
 
@@ -50,14 +50,12 @@ We used several datasets, including the **Fashion Landmark Detection in the Wild
 - **Keypoint Distances**: Measures distances between detected landmarks (collar width, shoulder width, waist width) in pixels.
 - **Real-World Measurements**: Converts these distances into millimeters using the scale calibration data.
 
-## 6. Evaluation
+## 6. Additional Techniques
 
-- **Model Performance**: Monitors loss and accuracy metrics during training. Employs K-fold cross-validation to mitigate overfitting.
-- **Final Fold**: The 5th fold is selected for final evaluation based on its consistent performance across metrics.
+- **Pose ResNet-50**: Experimented with Pose ResNet-50 for landmark detection. The code for this approach is included in the repository for reference.
+- **Clothing Extraction and Landmark Detection**: Used YOLO for bounding box detection to extract clothing from images. Subsequently, a pre-trained HRNet model is utilized for landmark detection on the extracted clothing regions.
 
-## 7. Output
+## 7. Pretrained Models
 
-- **Predicted Measurements**: Outputs precise clothing measurements in millimeters, ready for integration into e-commerce platforms.
-
-
+- **Pretrained Models**: All pretrained models used in this project are available for download from the following Google Drive link: [Download Pretrained Models]([https://drive.google.com/drive/folders/your-folder-id](https://drive.google.com/drive/folders/1Ku9bNEhJeYNyXNBoHCk89ygAAfkMCeXn?usp=drive_link)). 
 
