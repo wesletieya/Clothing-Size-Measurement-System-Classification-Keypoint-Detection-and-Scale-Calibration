@@ -18,7 +18,7 @@ We used several datasets, including the **Fashion Landmark Detection in the Wild
 - **Fashion Landmark Detection in the Wild (FLD)**: Contains labeled landmarks for different clothing types, enabling precise measurements.
   [fashion-landmarks](https://github.com/liuziwei7/fashion-landmarks)
 - **Clothes Dataset (Kaggle)**: A diverse dataset with over 5,000 images for model training and validation.
-  [Clothing dataset]([https://github.com/username/repo-name](https://github.com/alexeygrigorev/clothing-dataset)
+  [Clothing dataset](https://github.com/alexeygrigorev/clothing-dataset)
 
 # Project Pipeline: Clothing Size Measurement System
 
